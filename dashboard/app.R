@@ -16,8 +16,8 @@ library(shinydashboard)
 
 # 1. Importing the data ----
 ## Now we import the dataset that is in an excel format
-file_name <- "https://raw.githubusercontent.com/cesarnunezh/HousingDeficitPeru/main/bd_censo_indicadores.csv"
-file_name2 <- "https://raw.githubusercontent.com/cesarnunezh/HousingDeficitPeru/main/bd_censo_indicadoresNUEVAMEDICION.csv"
+file_name <- "https://raw.githubusercontent.com/cesarnunezh/HousingDeficitPeru/main/data/bd_censo_indicadores.csv"
+file_name2 <- "https://raw.githubusercontent.com/cesarnunezh/HousingDeficitPeru/main/data/bd_censo_indicadoresNUEVAMEDICION.csv"
 
 # Read the Excel file
 data <- read.csv(file_name)
